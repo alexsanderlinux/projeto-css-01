@@ -6,14 +6,10 @@
 
 body{
     font-family: Raleway;
-    text-align: center;
-    
-    
-    
+    text-align: center;    
 }
 
 /* estilo cabecalho */
-
 
 .banner{
     margin: auto;
@@ -35,10 +31,18 @@ body{
 }
 
 .logo{
+    margin: 54px auto 0;
     width: 268px;
     height: 268px;
-    margin: auto;
+    background: rgba(0, 0, 0, .1);  
+    border-radius: 50%;
+}
 
+.logo > img{
+    width: 248px;
+    height: 214px;
+    background-repeat: no-repeat;
+    margin: 20px auto;    
 }
 
 
@@ -54,6 +58,31 @@ body{
     
 }
 
+.banner-content > button{
+    width: 326px;
+    height: 57px;
+    margin: auto;
+    font-weight: 900;
+    color: #1472B7;
+    font-size: 16px;
+    line-height: 18.78px;
+    letter-spacing: 21%;
+    text-align: center;    
+    text-transform: uppercase;
+    background: transparent;
+    border: 2px solid;
+}
+
+.banner-content > p{
+    font: Raleway;
+    width: 514px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.48px;
+    text-align: center;
+    word-break: break-all;
+}
 
 
 /* estilo main */
