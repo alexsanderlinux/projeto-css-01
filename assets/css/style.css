@@ -1,0 +1,75 @@
+
+/*importando fonte externa*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: Raleway;
+    text-align: center;
+    
+    
+    
+}
+
+/* estilo cabecalho */
+
+
+.banner{
+    margin: auto;
+    width: 1140px;
+    height: 605px;
+    border-bottom: 1px solid #33A8DB;
+    background-image: url(../../assets/images/banner.png), radial-gradient(circle,  rgb(29, 55, 66), rgb(0,0,0) 99% );
+    background-repeat: no-repeat;
+}
+
+.banner-content{
+    color: #fff; 
+    width: 510px;
+    height: 393px;
+    margin: auto;
+    text-align:center;
+    display: grid;
+    gap: 16px;
+}
+
+.logo{
+    width: 268px;
+    height: 268px;
+    margin: auto;
+
+}
+
+
+.banner-content h1{
+    text-transform: uppercase;
+    color: #33A8DB;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    background: linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+
+/* estilo main */
+
+main {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+/* estilo footer */
+
+footer{
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-top: 1px solid #33A8DB;
+}
