@@ -7,15 +7,15 @@
 body{
     font-family: Raleway;
     text-align: center; 
-     
 }
 
 /* estilo cabecalho */
 
 .banner{
     margin: auto;
-    width: 1140px;
+    width: 100%;
     height: 605px;
+    padding: 1px;
     border-bottom: 1px solid #33A8DB;
     background-image: url(../../assets/images/banner.png), radial-gradient(circle,  rgb(29, 55, 66), rgb(0,0,0) 99% );
     background-repeat: no-repeat;
@@ -90,15 +90,15 @@ body{
 
 main {
     margin: 0 auto;
-    width: 1140px;
-    padding: 10px;
+    width: 100%;
+    padding: 1px;
     background: #000;
     color: #fff;
 }
 
 main > #course-content{
     width: 792px;
-    height: 324px;
+    height: 355px;
     margin: 69px auto;
     display: grid;
     gap: 24px;
@@ -133,7 +133,7 @@ main > #course-content > p{
 #course-content > .modules-list > .module{
     width: 535px;
     height: 57px;
-    margin: 16px auto;
+    margin: 20px auto;
     display: grid;
     gap: 10px;
     font-weight: 400;
@@ -158,14 +158,28 @@ main > #course-content > p{
 
 #transform-world{
     height: 363px;
-    border: 1px solid;
+    border-top: 1px solid #33A8DB;
+    border-right: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+    background: url(../../assets/images/woman-code.png) no-repeat fixed center bottom;  
+    /*position: center bottom;*/
+    opacity: 90%;
+    margin: 2500px, auto;
+    background-size: 140%, 200%;
+    
+    /*object-fit: cover;*/
+}
+/*cover
+#transform-world > img{
+    max-width: 1140px;
+    max-height: 363px;
     background: url(../../assets/images/woman-code.png);  
     background-attachment: fixed;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 0 auto;
+    margin: auto auto;
 }
-
+/*
 
 /* estilo footer */
 
@@ -173,8 +187,8 @@ footer{
 
     color: #fff;
     margin: auto;
-    width: 1140px;
-    padding: 10px;
+    width: 100%;
+    padding: 1px;
     border-top: 1px solid #33A8DB;
     background: #000;
 
