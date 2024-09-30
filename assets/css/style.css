@@ -105,6 +105,8 @@ main > #course-content{
 
 }
 
+/* O que vou aprender*/
+
 main > #course-content > h2{
     width: 477px;
     height: 38px;
@@ -162,34 +164,92 @@ main > #course-content > p{
     border-right: 1px solid #33A8DB;
     border-bottom: 1px solid #33A8DB;
     background: url(../../assets/images/woman-code.png) no-repeat fixed center bottom;  
-    /*position: center bottom;*/
     opacity: 90%;
-    margin: 2500px, auto;
-    background-size: 140%, 200%;
+    margin: auto;
+    background-size: 150%, 200%;
+}
+
+#transform-world > p{
+    width: 244px;
+    height: 141px;
+    margin-top: 120px;
+    margin-left: 10%;
+    text-align: left;
     
-    /*object-fit: cover;*/
+    text-transform: lowercase;
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    text-shadow: 2px 2px #3AD;
 }
-/*cover
-#transform-world > img{
-    max-width: 1140px;
-    max-height: 363px;
-    background: url(../../assets/images/woman-code.png);  
-    background-attachment: fixed;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: auto auto;
+
+
+#professional-challenges>h2{
+    width: 746px;
+    height: 76px;
+    margin: 70px auto 30px;
+    text-transform: uppercase;
+    color: #33A8DB;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    letter-spacing: 19%;
+    background: linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 19%;
 }
-/*
+
+#professional-challenges>img{
+    width: 659px;
+    height: 429px;
+    margin: auto;
+}
+
+#professional-challenges>p{
+    width: 792px;
+    height: 76px;
+    font-size: 16px;
+    line-height: 18.78px;
+    margin: 50px auto;
+    font-weight: 400;
+    text-align: center;
+}
+
+
 
 /* estilo footer */
 
-footer{
 
-    color: #fff;
-    margin: auto;
+
+footer{
     width: 100%;
-    padding: 1px;
+    height: 170px;
+    color: #fff;
+    margin: auto;   
     border-top: 1px solid #33A8DB;
     background: #000;
+    background: linear-gradient(rgb(29, 55, 66), rgb(0,0,0) 99%);
 
+}
+
+/*conteudo footer*/
+
+footer>img{
+    width: 310px;
+    height: 44px;
+    margin-top: 59px;
+}
+
+footer>p{
+    width: 259px;
+    height: 19px;
+    margin: 10px auto;
+
+}
+
+footer>p>a{
+    text-decoration: none;
+    color: #33A8DB;
 }
